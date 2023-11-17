@@ -11,7 +11,7 @@ import SwitcherTwo from "@/components/Switchers/SwitcherTwo";
 
 import { Metadata } from "next";
 export const metadata: Metadata = {
-  title: "Form Elements Page | Next.js E-commerce Dashboard Template",
+  title: "Form Elements Page | MasSway",
   description: "This is Form Elements page for TailAdmin Next.js",
   // other metadata
 };

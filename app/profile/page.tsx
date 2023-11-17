@@ -3,7 +3,7 @@ import Image from "next/image";
 
 import { Metadata } from "next";
 export const metadata: Metadata = {
-  title: "Profile Page | Next.js E-commerce Dashboard Template",
+  title: "Profile Page | MasSway",
   description: "This is Profile page for TailAdmin Next.js",
   // other metadata
 };
