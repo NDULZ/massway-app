@@ -3,7 +3,7 @@ import Breadcrumb from "@/components/Breadcrumbs/Breadcrumb";
 import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Buttons Page | MasSway",
-  description: "This is Buttons page for TailAdmin Next.js",
+  description: "This is Buttons page for MasSway",
   // other metadata
 };
 

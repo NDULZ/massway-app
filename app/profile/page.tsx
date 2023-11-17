@@ -4,7 +4,7 @@ import Image from "next/image";
 import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Profile Page | MasSway",
-  description: "This is Profile page for TailAdmin Next.js",
+  description: "This is Profile page for MasSway",
   // other metadata
 };
 

@@ -2,7 +2,7 @@ import Breadcrumb from "@/components/Breadcrumbs/Breadcrumb";
 import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Form Layout Page | MasSway",
-  description: "This is Form Layout page for TailAdmin Next.js",
+  description: "This is Form Layout page for MasSway",
   // other metadata
 };
 

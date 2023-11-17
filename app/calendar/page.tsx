@@ -3,7 +3,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Calendar Page | MasSway",
-  description: "This is Calendar page for TailAdmin Next.js",
+  description: "This is Calendar page for MasSway",
   // other metadata
 };
 
