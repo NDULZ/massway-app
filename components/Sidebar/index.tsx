@@ -188,7 +188,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
                                 pathname === "/" && "text-white"
                               } `}
                             >
-                              eCommerce
+                              Analytics
                             </Link>
                           </li>
                         </ul>
