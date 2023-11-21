@@ -14,7 +14,7 @@ const MapOne = dynamic(() => import("../Maps/MapOne"), {
   ssr: false,
 });
 
-const ECommerce: React.FC = () => {
+const Analytics: React.FC = () => {
   return (
     <>
 
@@ -115,4 +115,4 @@ const ECommerce: React.FC = () => {
   );
 };
 
-export default ECommerce;
+export default Analytics;
