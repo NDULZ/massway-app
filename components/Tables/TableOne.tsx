@@ -3,44 +3,44 @@ import Image from "next/image";
 
 const brandData: BRAND[] = [
   {
-    logo: "/images/brand/brand-01.svg",
-    name: "Google",
-    visitors: 3.5,
+    logo: "/images/brand/coca-cola-48x48.jpg",
+    name: "Coca-Cola",
+    visitors: 133.5,
     revenues: "5,768",
-    sales: 590,
-    conversion: 4.8,
+    sales: "Video",
+    conversion: "31/12/2023 | 23:59",
   },
   {
-    logo: "/images/brand/brand-02.svg",
-    name: "Twitter",
-    visitors: 2.2,
+    logo: "/images/brand/velvexlogo-48x48.jpg",
+    name: "Velvex",
+    visitors: 22.2,
     revenues: "4,635",
-    sales: 467,
-    conversion: 4.3,
+    sales: "Banner",
+    conversion: "31/12/2023 | 23:59",
   },
   {
-    logo: "/images/brand/brand-03.svg",
-    name: "Github",
-    visitors: 2.1,
+    logo: "/images/brand/harpiclogo-48x48.jpg",
+    name: "Harpic",
+    visitors: 42.1,
     revenues: "4,290",
-    sales: 420,
-    conversion: 3.7,
+    sales: "Banner",
+    conversion: "31/12/2023 | 23:59",
   },
   {
-    logo: "/images/brand/brand-04.svg",
-    name: "Vimeo",
-    visitors: 1.5,
+    logo: "/images/brand/dormanslogo-48x48.jpg",
+    name: "Dormans",
+    visitors: 51.5,
     revenues: "3,580",
-    sales: 389,
-    conversion: 2.5,
+    sales: "Video",
+    conversion: "31/12/2023 | 23:59",
   },
   {
-    logo: "/images/brand/brand-05.svg",
-    name: "Facebook",
-    visitors: 3.5,
+    logo: "/images/brand/vaallogo-48x48.jpg",
+    name: "VAAL",
+    visitors: 43.5,
     revenues: "6,768",
-    sales: 390,
-    conversion: 4.2,
+    sales: "Video",
+    conversion: "31/12/2023 | 23:59",
   },
 ];
 
@@ -48,34 +48,34 @@ const TableOne = () => {
   return (
     <div className="rounded-sm border border-stroke bg-white px-5 pt-6 pb-2.5 shadow-default dark:border-strokedark dark:bg-boxdark sm:px-7.5 xl:pb-1">
       <h4 className="mb-6 text-xl font-semibold text-black dark:text-white">
-        Top Channels
+        Campaigns
       </h4>
 
       <div className="flex flex-col">
         <div className="grid grid-cols-3 rounded-sm bg-gray-2 dark:bg-meta-4 sm:grid-cols-5">
           <div className="p-2.5 xl:p-5">
             <h5 className="text-sm font-medium uppercase xsm:text-base">
-              Source
+              Brand
             </h5>
           </div>
           <div className="p-2.5 text-center xl:p-5">
             <h5 className="text-sm font-medium uppercase xsm:text-base">
-              Visitors
+              Views Target
             </h5>
           </div>
           <div className="p-2.5 text-center xl:p-5">
             <h5 className="text-sm font-medium uppercase xsm:text-base">
-              Revenues
+              Budget
             </h5>
           </div>
           <div className="hidden p-2.5 text-center sm:block xl:p-5">
             <h5 className="text-sm font-medium uppercase xsm:text-base">
-              Sales
+              Type
             </h5>
           </div>
           <div className="hidden p-2.5 text-center sm:block xl:p-5">
             <h5 className="text-sm font-medium uppercase xsm:text-base">
-              Conversion
+              Application Deadline
             </h5>
           </div>
         </div>
@@ -111,7 +111,7 @@ const TableOne = () => {
             </div>
 
             <div className="hidden items-center justify-center p-2.5 sm:flex xl:p-5">
-              <p className="text-meta-5">{brand.conversion}%</p>
+              <p className="text-meta-5">{brand.conversion}</p>
             </div>
           </div>
         ))}
