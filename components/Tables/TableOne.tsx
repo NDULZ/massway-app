@@ -8,7 +8,7 @@ const brandData: BRAND[] = [
     name: "Coca-Cola",
     visitors: 133.5,
     revenues: "5,768",
-    sales: "Video",
+    sales: "Apply",
     conversion: "31/12/2023 | 23:59",
   },
   {
@@ -16,7 +16,7 @@ const brandData: BRAND[] = [
     name: "Velvex",
     visitors: 22.2,
     revenues: "4,635",
-    sales: "Banner",
+    sales: "Apply",
     conversion: "31/12/2023 | 23:59",
   },
   {
@@ -24,7 +24,7 @@ const brandData: BRAND[] = [
     name: "Harpic",
     visitors: 42.1,
     revenues: "4,290",
-    sales: "Banner",
+    sales: "Apply",
     conversion: "31/12/2023 | 23:59",
   },
   {
@@ -32,7 +32,7 @@ const brandData: BRAND[] = [
     name: "Dormans",
     visitors: 51.5,
     revenues: "3,580",
-    sales: "Video",
+    sales: "Apply",
     conversion: "31/12/2023 | 23:59",
   },
   {
@@ -40,7 +40,7 @@ const brandData: BRAND[] = [
     name: "VAAL",
     visitors: 43.5,
     revenues: "6,768",
-    sales: "Video",
+    sales: "Apply",
     conversion: "31/12/2023 | 23:59",
   },
 ];
@@ -48,7 +48,6 @@ const brandData: BRAND[] = [
 
 const TableOne = () => {
   return (
-    <Link href="/settings">
     <div className="rounded-sm border border-stroke bg-white px-5 pt-6 pb-2.5 shadow-default dark:border-strokedark dark:bg-boxdark sm:px-7.5 xl:pb-1">
       <h4 className="mb-6 text-xl font-semibold text-black dark:text-white">
         Campaigns
@@ -73,12 +72,12 @@ const TableOne = () => {
           </div>
           <div className="hidden p-2.5 text-center sm:block xl:p-5">
             <h5 className="text-sm font-medium uppercase xsm:text-base">
-              Type
+              Application Deadline
             </h5>
           </div>
           <div className="hidden p-2.5 text-center sm:block xl:p-5">
             <h5 className="text-sm font-medium uppercase xsm:text-base">
-              Application Deadline
+              
             </h5>
           </div>
         </div>
@@ -110,17 +109,16 @@ const TableOne = () => {
             </div>
 
             <div className="hidden items-center justify-center p-2.5 sm:flex xl:p-5">
-              <p className="text-black dark:text-white">{brand.sales}</p>
+              <p className="text-black dark:text-white">{brand.conversion}</p>
             </div>
 
             <div className="hidden items-center justify-center p-2.5 sm:flex xl:p-5">
-              <p className="text-meta-5">{brand.conversion}</p>
+              <Link href="/ui/alerts" className="text-meta-5 hover:underline">{brand.sales}</Link>
             </div>
           </div>
         ))}
       </div>
     </div>
-    </Link>
   );
 };
 
