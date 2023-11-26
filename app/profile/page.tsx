@@ -102,7 +102,7 @@ const Profile = () => {
             <h3 className="mb-1.5 text-2xl font-semibold text-black dark:text-white">
               Danish Heilium
             </h3>
-            <p className="font-medium">Ui/Ux Designer</p>
+            <p className="font-medium">Tech Enthusiast</p>
             <div className="mx-auto mt-4.5 mb-5.5 grid max-w-94 grid-cols-3 rounded-md border border-stroke py-2.5 shadow-1 dark:border-strokedark dark:bg-[#37404F]">
               <div className="flex flex-col items-center justify-center gap-1 border-r border-stroke px-4 dark:border-strokedark xsm:flex-row">
                 <span className="font-semibold text-black dark:text-white">
@@ -139,13 +139,14 @@ const Profile = () => {
 
             <div className="mt-6.5">
               <h4 className="mb-3.5 font-medium text-black dark:text-white">
-                Follow me on
+                Find me on
               </h4>
               <div className="flex items-center justify-center gap-3.5">
                 <a
-                  href="#"
+                  href="https://facebook.com"
                   className="hover:text-primary"
                   aria-label="social-icon"
+                  target="_blank"
                 >
                   <svg
                     className="fill-current"
@@ -169,9 +170,10 @@ const Profile = () => {
                   </svg>
                 </a>
                 <a
-                  href="#"
+                  href="https://twitter.com"
                   className="hover:text-primary"
                   aria-label="social-icon"
+                  target="_blank"
                 >
                   <svg
                     className="fill-current"
@@ -200,9 +202,10 @@ const Profile = () => {
                   </svg>
                 </a>
                 <a
-                  href="#"
+                  href="https://linked.com"
                   className="hover:text-primary"
                   aria-label="social-icon"
+                  target="_blank"
                 >
                   <svg
                     className="fill-current"
@@ -257,9 +260,10 @@ const Profile = () => {
                   </svg>
                 </a>
                 <a
-                  href="#"
+                  href="https://github.com"
                   className="hover:text-primary"
                   aria-label="social-icon"
+                  target="_blank"
                 >
                   <svg
                     className="fill-current"
