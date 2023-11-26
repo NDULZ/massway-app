@@ -4,6 +4,7 @@ import "./data-tables-css.css";
 import "./satoshi.css";
 import { useState, useEffect } from "react";
 import Loader from "@/components/common/Loader";
+import { Analytics } from '@vercel/analytics/react';
 
 import Sidebar from "@/components/Sidebar";
 import Header from "@/components/Header";
@@ -49,6 +50,7 @@ export default function RootLayout({
                 <main>
                   <div className="mx-auto max-w-screen-2xl p-4 md:p-6 2xl:p-10">
                     {children}
+                    <Analytics />
                   </div>
                 </main>
                 {/* <!-- ===== Main Content End ===== --> */}
