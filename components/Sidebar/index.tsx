@@ -191,8 +191,6 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
                               Campaigns
                             </Link>
                           </li>
-                        </ul>
-                        <ul className="mt-4 mb-5.5 flex flex-col gap-2.5 pl-6">
                           <li>
                             <Link
                               href="/analytics"
@@ -201,6 +199,26 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
                               } `}
                             >
                               Analytics
+                            </Link>
+                          </li>
+                          <li>
+                            <Link
+                              href="/analytics"
+                              className={`group relative flex items-center gap-2.5 rounded-md px-4 font-medium text-bodydark2 duration-300 ease-in-out hover:text-white ${
+                                pathname === "/create-camp" && "text-white"
+                              } `}
+                            >
+                              Create a Campaign
+                            </Link>
+                          </li>
+                          <li>
+                            <Link
+                              href="/Creators"
+                              className={`group relative flex items-center gap-2.5 rounded-md px-4 font-medium text-bodydark2 duration-300 ease-in-out hover:text-white ${
+                                pathname === "/analytics" && "text-white"
+                              } `}
+                            >
+                              Creators
                             </Link>
                           </li>
                         </ul>
