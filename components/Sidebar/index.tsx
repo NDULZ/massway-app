@@ -203,7 +203,11 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
                           </li>
                           <li>
                             <Link
+<<<<<<< HEAD
                               href="/create-camp"
+=======
+                              href="/analytics"
+>>>>>>> 950141d020192d32348ecda2c392ed3f26d37b47
                               className={`group relative flex items-center gap-2.5 rounded-md px-4 font-medium text-bodydark2 duration-300 ease-in-out hover:text-white ${
                                 pathname === "/create-camp" && "text-white"
                               } `}
@@ -213,9 +217,15 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
                           </li>
                           <li>
                             <Link
+<<<<<<< HEAD
                               href="/creators"
                               className={`group relative flex items-center gap-2.5 rounded-md px-4 font-medium text-bodydark2 duration-300 ease-in-out hover:text-white ${
                                 pathname === "/creators" && "text-white"
+=======
+                              href="/Creators"
+                              className={`group relative flex items-center gap-2.5 rounded-md px-4 font-medium text-bodydark2 duration-300 ease-in-out hover:text-white ${
+                                pathname === "/analytics" && "text-white"
+>>>>>>> 950141d020192d32348ecda2c392ed3f26d37b47
                               } `}
                             >
                               Creators
