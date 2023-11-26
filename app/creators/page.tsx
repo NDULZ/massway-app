@@ -235,7 +235,7 @@ export default function Example() {
                                             </svg>
                                             </a>
                                             <a
-                                            href="https://linked.com"
+                                            href="https://linkedin.com"
                                             className="hover:text-primary"
                                             aria-label="social-icon"
                                             target="_blank"
